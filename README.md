@@ -65,11 +65,7 @@ which will print:
 (Optional) If you want to see a progress bar, install `progress` with `pip`:
 
     $ pip install progress
-    $ python main.py --nhop 3 --mem_size 50 --show_progress True
-
-After training is finished, you can test and validate with:
-
-    $ python main.py --is_test True --show_progress True
+    $ python main.py --gan_type VanillaInfoGAN --z_dim 14 --c_cat 10 --c_cont 2 --show_progress True
 
 
 Acknowledgements
